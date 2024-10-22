@@ -1,0 +1,20 @@
+
+p {
+    font-size: 12px;
+    color: grey;
+}
+
+.taskContainer{
+    display: flex; 
+    flex-direction: row;
+    border: 2px solid lightgray;
+    justify-content: space-between;
+    padding: 1.5em ; 
+    margin: .5em 0 .5em 0 ; 
+    
+}
+
+button{
+    border:none;
+    background-color: white;
+}
