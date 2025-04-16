@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import '../styles/Cards.css';
 import { TaskContext } from '../context/TaskContext';
-import {DeleteIcons , EditIcons } from './Icons';
+import {DeleteIcons  } from './Icons';
 
 function Cards() {
     const taskContext = useContext(TaskContext) ; 
